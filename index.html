@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>con.co | Luxury Travel & Curated Adventures</title>
+    <meta name="description" content="Discover unforgettable getaways, handcrafted itineraries, and guided adventures across the world with con.co." />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top Header & Navigation -->
+    <header class="site-header" id="home">
+      <div class="header-container">
+        <a href="#home" class="logo">con.<span>co</span></a>
+
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="site-nav" id="mainNav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#destinations" class="nav-link">Destinations</a></li>
+            <li><a href="#why-us" class="nav-link">About</a></li>
+            <li><a href="#trips" class="nav-link">Experiences</a></li>
+            <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+            <li><a href="#newsletter" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+
+        <a href="#destinations" class="header-cta-btn">Book a Trip</a>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <!-- Hero Left Content -->
+          <div class="hero-left">
+            <div class="badge-pill">
+              <span class="badge-dot"></span> Explore Without Limits
+            </div>
+            <div class="title-wrapper">
+              <h1 class="hero-title">
+                Go where <br />
+                You feel most <br />
+                <span class="highlight">Alive</span>
+              </h1>
+              <img
+                src="images/39.svg"
+                onerror="this.src='images/39.png'"
+                class="upperimg-deco"
+                alt="Decorative travel flair"
+              />
+            </div>
+
+            <p class="hero-desc">
+              Experience handcrafted journeys, breathtaking destinations, and authentic cultural expeditions tailored for curious explorers worldwide.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#destinations" class="btn-primary">
+                Let's Go <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <div class="travelers-stack">
+                <div class="avatar-group">
+                  <img src="images/Ellipse 5.svg" class="avatar-img" alt="Traveler community member" />
+                  <img src="images/Ellipse 6.svg" class="avatar-img" alt="Traveler community member" />
+                  <img src="images/Ellipse 7.svg" class="avatar-img" alt="Traveler community member" />
+                </div>
+                <div class="stack-text">
+                  <strong>Join 15,000+</strong>
+                  <span>Active Travelers</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="stats-row">
+              <div class="stat-card">
+                <div class="stat-icon-wrapper">
+                  <img src="images/Subtract.svg" alt="Trips icon" />
+                </div>
+                <div class="stat-info">
+                  <h3>1200+</h3>
+                  <p>Trips Done</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-icon-wrapper">
+                  <img src="images/Subtract (1).svg" alt="Guides icon" />
+                </div>
+                <div class="stat-info">
+                  <h3>700+</h3>
+                  <p>Guided Tours</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-icon-wrapper">
+                  <img src="images/Subtract (2).svg" alt="Happy travelers icon" />
+                </div>
+                <div class="stat-info">
+                  <h3>5000+</h3>
+                  <p>Happy Travelers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Visuals -->
+          <div class="hero-right">
+            <div class="hero-visual-frame">
+              <img
+                src="images/Rectangle 1.svg"
+                alt="Inspiring travel view"
+                class="hero-main-img"
+              />
+
+              <!-- Floating badge: 24/7 Support -->
+              <div class="floating-badge badge-support">
+                <span class="live-dot"></span>
+                <div class="support-text">
+                  <h3>24/7</h3>
+                  <p>Guide Support</p>
+                </div>
+              </div>
+
+              <!-- Floating badge: Request a call -->
+              <div class="floating-badge badge-call" id="requestCallBtn" role="button" tabindex="0" title="Click to request a consultation call">
+                <div class="phone-pulse-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <p>Request for A Call</p>
+              </div>
+
+              <!-- Floating badge: Client rating -->
+              <div class="floating-badge badge-rating">
+                <img src="images/Ellipse 8.svg" class="rating-avatar" alt="Client review avatar" />
+                <div class="rating-info">
+                  <div class="star-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h4>Rating by clients</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Destinations Section -->
+      <section class="destinations-section" id="destinations">
+        <div class="section-container">
+          <div class="section-header-centered">
+            <span class="section-eyebrow">Top Curated Escapes</span>
+            <h2 class="section-heading">Featured Destinations</h2>
+            <p class="section-subtext">Immerse yourself in world-renowned landmarks, tranquil getaways, and vibrant cultural centers.</p>
+          </div>
+
+          <div class="destinations-grid">
+            <!-- Card 1: Rome -->
+            <article class="destination-card card-rome">
+              <div class="card-overlay"></div>
+              <span class="price-tag">$550</span>
+              <div class="card-details">
+                <div class="location-pin">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span class="dest-name">Rome, Italy</span>
+                </div>
+                <button class="book-btn" aria-label="Book Rome trip">Book Now</button>
+              </div>
+            </article>
+
+            <!-- Card 2: California -->
+            <article class="destination-card card-california">
+              <div class="card-overlay"></div>
+              <span class="price-tag">$450</span>
+              <div class="card-details">
+                <div class="location-pin">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span class="dest-name">California, USA</span>
+                </div>
+                <button class="book-btn" aria-label="Book California trip">Book Now</button>
+              </div>
+            </article>
+
+            <!-- Card 3: Zurich -->
+            <article class="destination-card card-zurich">
+              <div class="card-overlay"></div>
+              <span class="price-tag">$700</span>
+              <div class="card-details">
+                <div class="location-pin">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span class="dest-name">Zürich, Switzerland</span>
+                </div>
+                <button class="book-btn" aria-label="Book Zurich trip">Book Now</button>
+              </div>
+            </article>
+
+            <!-- Card 4: Santorini -->
+            <article class="destination-card card-santorini">
+              <div class="card-overlay"></div>
+              <span class="price-tag">$999</span>
+              <div class="card-details">
+                <div class="location-pin">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span class="dest-name">Imerovigli, Santorini</span>
+                </div>
+                <button class="book-btn" aria-label="Book Santorini trip">Book Now</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section class="why-us-section" id="why-us">
+        <div class="section-container">
+          <div class="why-us-header">
+            <div class="why-us-title-col">
+              <span class="section-eyebrow">Our Core Values</span>
+              <h2 class="section-heading">Why You Should Go With Us?</h2>
+            </div>
+            <div class="why-us-desc-col">
+              <p>
+                From effortless booking to seasoned local guides on the ground, we turn bucket-list dreams into effortless memories with personalized itinerary planning and 24/7 dedicated assistance.
+              </p>
+            </div>
+          </div>
+
+          <div class="why-us-content-grid">
+            <div class="why-us-image-wrap">
+              <img
+                src="images/Rectangle 3583.svg"
+                alt="Couple traveling and making memories"
+                class="feature-showcase-img"
+              />
+              <div class="feature-img-glow"></div>
+            </div>
+
+            <div class="feature-list">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="images/Group 53.svg" alt="Comfort and safety icon" />
+                </div>
+                <div class="feature-text">
+                  <h3>Seamless Travel Logistics</h3>
+                  <p>All transfers, verified boutique stays, and curated excursions are organized down to the minute so you just enjoy the moment.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="images/Group 54.svg" alt="Best price icon" />
+                </div>
+                <div class="feature-text">
+                  <h3>Unmatched Value & Pricing</h3>
+                  <p>Transparent rates with zero hidden fees. Benefit from our global hospitality partnerships for exclusive discounts and free upgrades.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="images/Group 55.svg" alt="Expert guides icon" />
+                </div>
+                <div class="feature-text">
+                  <h3>Vetted Local Storytellers</h3>
+                  <p>Our certified regional guides give you insider access to hidden gems, authentic culinary spots, and rich cultural heritage.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Partners / Sponsor Logos Cloud -->
+      <section class="partners-section">
+        <div class="section-container">
+          <p class="partners-label">Trusted by industry leaders and worldwide airlines</p>
+          <div class="partners-logo-row">
+            <div class="partner-logo"><img src="images/Vector.svg" alt="Partner brand 1" /></div>
+            <div class="partner-logo"><img src="images/Vector (1).svg" alt="Partner brand 2" /></div>
+            <div class="partner-logo"><img src="images/Vector (3).svg" alt="Partner brand 3" /></div>
+            <div class="partner-logo"><img src="images/Vector (2).svg" alt="Partner brand 4" /></div>
+            <div class="partner-logo"><img src="images/Vector (5).svg" alt="Partner brand 5" /></div>
+            <div class="partner-logo"><img src="images/Vector (4).svg" alt="Partner brand 6" /></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Trip Documentation Section -->
+      <section class="video-showcase-section" id="trips">
+        <div class="section-container">
+          <div class="video-header-row">
+            <div class="video-title-box">
+              <span class="section-eyebrow">Cinematic Highlights</span>
+              <h2 class="section-heading">Our Trip Documentations</h2>
+            </div>
+            <div class="video-desc-box">
+              <p>
+                Take a 3-minute look through the eyes of our global travelers. From sun-drenched coastal vistas to alpine peaks, witness real journeys captured in vibrant 4K cinema.
+              </p>
+            </div>
+          </div>
+
+          <div class="video-banner-wrap">
+            <img src="images/man.svg" alt="Traveler documentary preview" class="video-banner-img" />
+            <button class="play-trigger-btn" id="playVideoBtn" aria-label="Play travel video showcase">
+              <div class="play-pulse-ring"></div>
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <div class="video-tag">Click to watch documentary</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials-section" id="testimonials">
+        <div class="section-container">
+          <div class="section-header-centered">
+            <span class="section-eyebrow">Real Stories</span>
+            <h2 class="section-heading">What Our Customers Say</h2>
+            <p class="section-subtext">Over 5,000 satisfied adventurers have made unforgettable memories with us.</p>
+          </div>
+
+          <div class="testimonials-grid">
+            <!-- Review 1 -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img src="images/Ellipse 10.svg" alt="Elena Rostova" class="reviewer-avatar" />
+                <div class="reviewer-meta">
+                  <h3>Elena Rostova</h3>
+                  <span>Solo Backpacker • Norway</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="review-quote">
+                “Every detail was coordinated to perfection. The local guide in Rome helped us bypass three-hour queues and introduced us to family-owned trattorias we’d never have found alone!”
+              </p>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testimonial-card featured-testimonial">
+              <div class="testimonial-header">
+                <img src="images/Ellipse 10 (1).svg" alt="Mohammad Rony" class="reviewer-avatar" />
+                <div class="reviewer-meta">
+                  <h3>Mohammad Rony</h3>
+                  <span>Travel Photographer • UAE</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="review-quote">
+                “The Switzerland alpine tour exceeded all expectations. Seamless transport passes, picturesque chalets, and 24/7 responsiveness whenever we had questions during our journey.”
+              </p>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img src="images/Ellipse 10 (2).svg" alt="Sarah & David" class="reviewer-avatar" />
+                <div class="reviewer-meta">
+                  <h3>Sarah & David Jenkins</h3>
+                  <span>Honeymooners • Canada</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="review-quote">
+                “Booking our Santorini anniversary trip through con.co was the best decision we made. Sunset views from our cliffside suite were magical, and the team made everything effortless.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Subscription Section -->
+      <section class="newsletter-section" id="newsletter">
+        <div class="section-container">
+          <div class="newsletter-card">
+            <div class="newsletter-content">
+              <span class="badge-pill light-pill">Weekly Inspiration</span>
+              <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+              <p class="newsletter-sub">
+                Get handpicked seasonal deals, secret travel spots, and up to $150 off your first curated expedition.
+              </p>
+
+              <form class="newsletter-form" id="newsletterForm">
+                <div class="form-input-group">
+                  <i class="fa-regular fa-user form-icon"></i>
+                  <input
+                    type="text"
+                    id="newsName"
+                    class="form-input"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="form-input-group">
+                  <i class="fa-regular fa-envelope form-icon"></i>
+                  <input
+                    type="email"
+                    id="newsEmail"
+                    class="form-input"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                </div>
+                <button type="submit" class="btn-primary submit-btn">
+                  <span>Send</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+              <p class="form-note">🔒 Zero spam. Unsubscribe at any time with one click.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-main-row">
+          <div class="footer-brand-col">
+            <a href="#home" class="logo footer-logo">con.<span>co</span></a>
+            <p class="footer-brand-desc">
+              Curating unforgettable worldwide expeditions and premium holiday experiences with certified local guides since 2020.
+            </p>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#why-us">About Us</a></li>
+              <li><a href="#trips">Experiences</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social-col">
+            <h4 class="footer-col-title">Follow Us</h4>
+            <div class="social-icons">
+              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom-row">
+          <p>© 2026 con.co Travels. All rights reserved.</p>
+          <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <span class="sep">•</span>
+            <a href="#">Terms of Service</a>
+            <span class="sep">•</span>
+            <a href="#">Security</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Travel Documentary Player">
+      <div class="video-modal-content">
+        <button class="modal-close-btn" id="closeVideoModal" aria-label="Close modal">&times;</button>
+        <div class="modal-video-container">
+          <iframe
+            id="modalVideoFrame"
+            src=""
+            title="Travel Video Showcase"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+  </body>
+</html>
