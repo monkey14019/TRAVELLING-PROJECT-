@@ -2,7 +2,9 @@
 
 A modern, responsive landing page and web application for curated global expeditions, boutique journeys, and travel adventures.
 
----
+<img width="1895" height="867" alt="Screenshot 2026-10-08 161809" src="https://github.com/user-attachments/assets/05c8223d-2e1b-401b-b1f0-d8d9498132a8" />
+
+
 
 ## ✨ Features
 
